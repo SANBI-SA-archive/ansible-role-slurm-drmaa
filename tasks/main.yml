@@ -1,0 +1,4 @@
+---
+- name: install slurm drmaa module
+  include: slurm-drmaa.yml
+  when: slurm_drmaa_support == true
